@@ -1,0 +1,23 @@
+.header{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    padding: 1.81rem 1.25rem 1.62rem;
+    margin: 0 auto;
+    .search-icon{
+        position: absolute;
+        right: 20px;
+    }
+    .menu-icon{
+        display: none;
+        position: absolute;
+        left: 20px;
+
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+    }
+}

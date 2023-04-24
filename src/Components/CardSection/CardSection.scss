@@ -1,0 +1,12 @@
+.card-section{
+    margin: 3rem auto;
+    max-width: 1160px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem 2.5rem;
+    justify-content: center;
+    @media screen and (max-width: 768px) {
+        padding: 0 1.25rem;
+    }
+}

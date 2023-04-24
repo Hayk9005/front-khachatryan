@@ -1,0 +1,42 @@
+.card{
+    max-width: 360px;
+    width: 100%;
+    h4{
+        font-size: 0.8125rem;
+        line-height: 100%;
+        margin: 1rem 0;
+        color: #EB0028;
+    }
+    h2{
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        margin-bottom: 1rem;
+    }
+    p{
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        color: #929292;
+        margin-top: 1rem;
+    }
+    .card-info{
+        display: flex;
+        align-items: center;
+        column-gap: 0.3125rem;
+        b{
+            font-size: 0.75rem;
+            font-weight: 500;
+            line-height: 100%;
+        }
+    }
+    span{
+        color: #9b9b9b;
+        font-size: 0.75rem;
+        line-height: 100%;
+    }
+    @media screen and (max-width: 768px) {
+        max-width: 335px;
+        img{width: 100%;}
+    }
+    
+    
+}
